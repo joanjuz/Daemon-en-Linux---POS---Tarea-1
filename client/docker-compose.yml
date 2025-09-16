@@ -1,0 +1,8 @@
+services:
+  client:
+    image: imageserver-client:alpine
+    build: .
+    network_mode: host   # Linux; en Mac/Windows omite esto y usa host.docker.internal
+    volumes:
+      - ./samples:/images
+    entrypoint: ["./client", "127.0.0.1", "1717"]

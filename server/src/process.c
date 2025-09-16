@@ -6,7 +6,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 // Implementaciones STB solo aquí
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
